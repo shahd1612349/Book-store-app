@@ -152,7 +152,7 @@ class _OnBoardViewBodyState extends State<OnBoardViewBody> {
                     child: Text(
                       state == cubit.pages.length - 1
                           ? 'Get Started'
-                          : 'Continue',
+                          : 'skip',
                       style: TextStyle(
                         fontSize: screenWidth * 0.05,
                         color: state == cubit.pages.length - 1
